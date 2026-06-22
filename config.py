@@ -74,7 +74,7 @@ CACHE_SLEEP = int(getenv("CACHE_SLEEP" , "3600"))   #60*60
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQG7MakAOJtYvjxPfJdy80QxYf57nSzzJ_23zNOR0-RLyIJIRuHw09nrqrb-RM1ZIxhJUJECRMQuDFP3WGqRWxAhvRTtJNaju6atQDkAqTR9O0dAwfugDQKzfcQL9gV6kwg7pf7Z-mgXYVISFVjOOmOMePj-u2U6rxNK0Rrc7EZ5_gfsiqqNQfr0IP8s59Iz4G05XFpfoEzqUipH_lipwxK5E1SuiFMMUMIT0UDfCgQTdk2H4uxd8cKQChxc7g8s3HI8t7p70tONUi6syAQPodXj_67M4TWJ3NtQyukM9PHr1OJTz6Y1Vk0hoEaxsvitRaJO4eKxJ9QoU1GnTGPmc6euztILEQAAAAHK112hAA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
