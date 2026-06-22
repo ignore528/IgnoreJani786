@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID","34708578"))
-API_HASH = getenv("API_HASH","d532e5b947d462f858077d614f31f22b")
+API_ID = int(getenv("API_ID","29045161"))
+API_HASH = getenv("API_HASH","488d79f792fe00408782999b6c01d083")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8612940633:AAEtgOLOshMBOnkdLB8NPMQ6DiOdjh_OmWk")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://deidaraasui12_db_user:lFMu0uvvRI5Kv86r@stark.yrjtl3r.mongodb.net/?appName=Stark", None)
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
@@ -24,10 +24,10 @@ YT_API_KEY = getenv("YT_API_KEY" , "xbit_JwovKyueoOSdTczoI53PUcT94YtlZllm" ) ## 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 999999999))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID"))
+LOGGER_ID = int(getenv("-1002563579272"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID","8092368726"))
+OWNER_ID = int(getenv("OWNER_ID","6265094563"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -44,8 +44,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Jani_Ki_Jaanu")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+xnUCDYVIAONlMzNl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/cauxx")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/textables")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
